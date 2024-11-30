@@ -1,7 +1,7 @@
 +++
 title = 'Table of Contents'
 date = 2024-11-30T00:57:36+01:00
-draft = false
+draft = true
 description = 'Table of Contents'
 isStarred = false
 toc = true
@@ -34,13 +34,13 @@ To disable ToC globally, simply ignore the `toc` parameter or set it to `false`.
 
 To enable ToC on certain posts set parameter `toc` to `true` in post settings.
 
-    ```yaml
-    ---
-    title: How to enable table of content
-    date: 2023-05-02
-    toc: true
-    ---
-    ```
+```yaml
+---
+title: How to enable table of content and much more
+date: 2023-05-02
+toc: true
+---
+```
 
 ## Disable table of content on certain posts
 
@@ -50,20 +50,20 @@ Notice: `.Params.toc` in the post will override `.Site.Params.toc`. After these 
 
 1.  Set parameter `toc` to `true` in `hugo.toml`.
 
-    ```toml
-    [params]
-      toc = true
-    ```
+```toml
+[params]
+  toc = true
+```
 
 2.  Add `toc = false` to the front matter of the post for which you wish to disable ToC.
 
-    ```yaml
-    ---
-    title: How to enable table of content
-    date: 2023-05-02
-    toc: false
-    ---
-    ```
+```yaml
+---
+title: How to enable table of content
+date: 2023-05-02
+toc: false
+---
+```
 
 ## Inhaltsverzeichnis aufklappen
 

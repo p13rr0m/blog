@@ -1,7 +1,7 @@
 +++
 title = 'Math Typesetting - use Mathematical notation in blog posts'
 date = 2024-11-30T00:57:36+01:00
-draft = false
+draft = true
 description = 'A brief guide to setup KaTeX.'
 isStarred = false
 toc = true
